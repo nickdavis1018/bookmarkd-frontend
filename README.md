@@ -30,14 +30,14 @@ Create an application that will allows users to create and store bookmarks for f
 
 ## Contributor Info
 
-Anthony Surace
-Lead Frontend Developer and Destiny Extraordinare
+Anthony Surace<br>
+Lead Frontend Developer and Destiny Extraordinare<br>
 <a href="https://github.com/ajsur1017">Anthony's Github</a>
 
-Tom Ames
-Lead Backend Developer
+Tom Ames<br>
+Lead Backend Developer<br>
 <a href="https://github.com/tsames">Tom's Github</a>
 
-Nick Davis
-Jack-of-All-Trades, Master-of-None
+Nick Davis<br>
+Jack-of-All-Trades, Master-of-None<br>
 <a href="https://github.com/tames">Nick's Github</a>
