@@ -18,7 +18,6 @@ function Show(props) {
     props.updateBookmark(editForm, bookmarks._id)
     props.history.push("/")
   }
-  // remove function to delte a person
   const removeBookmark = () => {
     props.deleteBookmark(bookmarks._id)
     props.history.push("/")
