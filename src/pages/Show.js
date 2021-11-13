@@ -32,8 +32,8 @@ function Show(props) {
       <form onSubmit={handleSubmit}>
         <input
         type="text"
-        value={editForm.name}
-        name="name"
+        value={editForm.website}
+        name="website"
         placeholder="name"
         onChange={handleChange}
         />
