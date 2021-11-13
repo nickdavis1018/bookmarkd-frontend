@@ -40,4 +40,4 @@ Lead Backend Developer<br>
 
 Nick Davis<br>
 Jack-of-All-Trades, Master-of-None<br>
-<a href="https://github.com/tames">Nick's Github</a>
+<a href="https://github.com/nickdavis1018">Nick's Github</a>
