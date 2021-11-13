@@ -24,7 +24,7 @@ function Index(props) {
     return props.bookmark.map((bookmarks) => (
       <div key={bookmarks._id} className="bookmarks">
         <Link to={`/bookmarks/${bookmarks._id}`}><h1>{bookmarks.website}</h1></Link>
-        <h3>{bookmarks.url}</h3>
+        <h3><a href={bookmarks.url}/></h3>
       </div>
     ));
   };
