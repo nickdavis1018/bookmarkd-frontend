@@ -23,12 +23,14 @@ function Show(props) {
     props.history.push("/")
   }
   return (
-    <div className="bookmarks">
+    <div className="bookmarksShow">
+    <div className="bookmarksOne">
       <h1>{bookmarks.website}</h1>
       <h2>{bookmarks.url}</h2>
       <button id="delete" onClick={removeBookmark}>
-        DELETE
+        Delete Bookmark
       </button>
+      <div className="bookmarkForm">
       <form onSubmit={handleSubmit}>
         <input
         type="text"
@@ -46,10 +48,12 @@ function Show(props) {
         />
        
         <input
+        className="button"
         type="submit"
-        value="Update The Bookmark"
+        value="Update Bookmark"
         />
-      </form>
+      </form></div>
+    </div>
     </div>
   )
 }

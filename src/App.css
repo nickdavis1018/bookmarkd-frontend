@@ -1,11 +1,118 @@
 .App {
   text-align: center;
+  background-color: white;
 }
 
 .App-logo {
   height: 40vmin;
   pointer-events: none;
 }
+
+.bookmarks{
+  border: solid black 1px;
+  padding-bottom: 20px;
+  margin: 20px;
+  max-width: 400px;
+  background-color: rgba(100, 11, 11, 0.541);
+  border-radius: 8px;
+}
+
+.bookmarksOne{
+  border: solid black 1px;
+  padding-bottom: 20px;
+  margin: 20px;
+  width: 500px;
+  background-color: rgba(100, 11, 11, 0.541);
+  border-radius: 8px;
+}
+
+.mainIndex{
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  justify-content: center;
+  align-items: center;
+}
+
+.bookmarksShow{
+  display: flex;  
+  justify-content: center;
+}
+
+form{
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+  width: 200px;
+}
+
+.navigation{
+  text-decoration: none;
+  color: black;
+  font-size: 36px;
+}
+
+.bookmarkForm{
+  display: flex;
+  justify-content: center;
+}
+
+.urlLink{
+  text-decoration: underline;
+  color: blue;
+}
+
+
+#delete{
+  background-color: brown;
+  color: white
+}
+
+.bookmarksShow{
+  margin-top: 100px;
+}
+
+.button{
+  background-color: brown;
+  color: white;
+}
+
+.nav{
+  background-color: rgba(100, 11, 11, 0.541);
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+a{
+  text-decoration: none;
+  color: black;
+}
+
+@media only screen and (max-width: 1000px) {
+  .mainIndex{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    justify-content: center;
+    align-items: center;
+  }
+  }
+
+  @media only screen and (max-width: 750px) {
+    .mainIndex{
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      justify-content: center;
+      align-items: center;
+    }
+    }
+
+    @media only screen and (max-width: 500px) {
+      .mainIndex{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        justify-content: center;
+        align-items: center;
+      }
+      }
 
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
