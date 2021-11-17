@@ -24,7 +24,7 @@ function Index(props) {
     return props.bookmark.map((bookmarks) => (
       <div key={bookmarks._id} className="bookmarks">
         <Link to={`/bookmarks/${bookmarks._id}`}><h1>{bookmarks.website}</h1></Link>
-        <h3><a href={bookmarks.url}>{bookmarks.url}</a></h3>
+        <a className="urlLink" href={bookmarks.url}>{bookmarks.url}</a>
       </div>
     ));
   };
@@ -34,6 +34,8 @@ function Index(props) {
   };
   return (
     <section>
+    <div className="formCreate">
+      <div className="bookmarkForm">
       <form onSubmit={handleSubmit}>
         <input
           type="text"
@@ -50,9 +52,9 @@ function Index(props) {
           onChange={handleChange}
         />
         
-        <input type="submit" value="Add Bookmark" />
-      </form>
-      {props.bookmark ? loaded() : loading()}
+        <input className="button" type="submit" value="Add Bookmark" />
+      </form></div></div><div className="mainIndex">
+      {props.bookmark ? loaded() : loading()}</div>
     </section>
   );
 }
